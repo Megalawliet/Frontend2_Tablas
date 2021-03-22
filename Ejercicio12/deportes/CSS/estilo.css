@@ -1,0 +1,28 @@
+table, td, th{
+border: 1px solid black;
+/*border-collapse: collapse;*/
+border-color: blue;
+padding-top: 1%;
+padding-top: 0%;
+width: 25%;
+}
+
+th{
+  background-color: palegreen;
+}
+
+table{
+    background-color:darkseagreen;
+}
+
+
+td {
+  text-align: left;
+  padding: 3px;
+}
+
+
+tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
